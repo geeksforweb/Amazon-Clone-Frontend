@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/", // This ensures the app runs at the root of the domain
 });
 
 // import { defineConfig } from 'vite'

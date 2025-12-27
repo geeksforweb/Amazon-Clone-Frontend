@@ -16,7 +16,8 @@ const stripePromise = loadStripe("pk_test_51ShWBUQOZAd5pdzlSVUOHVfW8jQLCsJBNAisv
 
 function AppRouter() {
   return (
-    <Router basename="/Amazon-Clone-Frontend-and-Backend--2025">
+    // basename="/Amazon-Clone-Frontend-and-Backend--2025"
+    <Router >
       {/* {this are used as BrowserRouter } */}
       <Routes>
         <Route path="/" element={<Landing />} />
