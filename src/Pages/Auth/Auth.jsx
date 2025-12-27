@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import styles from "./signup.module.css";
 import { Link, useNavigate, useLocation } from "react-router-dom";
-import { auth } from "../../Utility/FireBAse";
+import { auth } from "../../Utility/firebase"; // Matches lowercase filename
 import {signInWithEmailAndPassword,createUserWithEmailAndPassword} from "firebase/auth";
 import { ClipLoader } from "react-spinners";
 import { DataContext } from "../../Componets/DataProvider/DataProvider";
