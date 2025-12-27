@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineMenu } from "react-icons/md";
-import classes from "./Header.module.css"; // Note: Re-using the Header.module.css file
+import classes from "./header.module.css"; // Note: Re-using the Header.module.css file
 
 function LowerHeader() {
   return (

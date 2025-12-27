@@ -8,8 +8,8 @@ import { Link } from "react-router-dom"; // Importing React Router components fo
 import { useContext, useEffect, useState } from "react";
 import { DataContext } from "../DataProvider/DataProvider";
 import axios from "axios";
-import { productUrl } from "../../Api/endPoints";
-import { auth } from "../../Utility/FireBAse";
+import { productUrl } from "../../Api/endpoints";
+import { auth } from "../../Utility/firebase";
 
 
 function Header() {
