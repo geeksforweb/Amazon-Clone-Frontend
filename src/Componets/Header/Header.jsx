@@ -2,7 +2,7 @@
 import { BsSearch } from "react-icons/bs";
 import { SlLocationPin } from "react-icons/sl";
 import { BiCart } from "react-icons/bi";
-import classes from "./Header.module.css";
+import classes from "./header.module.css";
 import LowerHeader from "./LowerHeader";
 import { Link } from "react-router-dom"; // Importing React Router components for routing
 import { useContext, useEffect, useState } from "react";
