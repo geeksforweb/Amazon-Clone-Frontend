@@ -8,6 +8,7 @@ import "firebase/compat/storage";
 const firebaseConfig = {
   apiKey: "AIzaSyA8UqizfZBmo90aDVPM7rzyQl-PFiFJKRI",
   // apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  //# VITE_FIREBASE_API_KEY=AIzaSyA8UqizfZBmo90aDVPM7rzyQl-PFiFJKRI on .env
 
   authDomain: "clone-e76be.firebaseapp.com",
   projectId: "clone-e76be",
