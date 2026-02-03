@@ -33,7 +33,7 @@ function Orders() {
 
   return (
     <Layout>
-      <section className={styles.container}>
+      <section className={styles.orders}>
         <div className={styles.orders_container}>
           <h2>Your Orders</h2>
           {orders.length == 0 && (

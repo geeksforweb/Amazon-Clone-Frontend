@@ -78,3 +78,71 @@ margin: 0px 100px;
   width: 300px;
   height: 300px;
 }
+/* ==================================================
+   ProductCard – Flex Detail View Fix (Orders / Cart)
+   ================================================== */
+
+/* Desktop layout: image left, content right */
+.product_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 900px;
+  gap: 30px;
+  box-shadow: none;
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+/* Image sizing for flex view */
+.product_detail img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* Content column (title, rating, price, button) */
+.product_detail > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+/* Keep rating stars + count in ONE ROW */
+.product_detail .productCard__rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+
+/* ===============================
+   Mobile Responsive (Flex Only)
+   =============================== */
+@media (max-width: 768px) {
+  .product_detail {
+    flex-direction: column; /* image top, content bottom */
+    align-items: center;
+    text-align: center;
+  }
+
+  .product_detail img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+  }
+
+  .product_detail > div {
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+

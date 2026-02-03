@@ -12,9 +12,9 @@ function ProductCard({
   product, // Object containing product details
   flex, // Optional flag for rendering layout as flex
   renderDesc,
-  renderAdd
+  renderAdd,
 }) {
-  // ✅ GUARD: stop rendering if product is null or undefined
+  // GUARD: stop rendering if product is null or undefined
   if (!product) {
     return null; // or loading UI
   }
@@ -40,9 +40,6 @@ function ProductCard({
       },
     });
   };
-
-
-
 
   return (
     <div
