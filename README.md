@@ -1,3 +1,14 @@
+# Disclaimer
+
+This project contains UI clones inspired by Amazon.
+
+It was developed strictly for educational and practice purposes.
+
+- This project is not affiliated with, authorized, maintained, sponsored, or endorsed by
+Amazon or any of their affiliates or subsidiaries.
+
+All product names, logos, and brands are the property of their respective owners.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

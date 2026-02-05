@@ -44,16 +44,18 @@ function Footer() {
             </div>
           ))}
         </div>
-
         <div className="footer-legal">
           <span>Conditions of Use</span>
           <span>Privacy Notice</span>
           <span>Consumer Health Data Privacy Disclosure</span>
           <span>Your Ads Privacy Choices</span>
         </div>
-
-        <p className="footer-copy">
-          © 1996-2026, Amazon.com, Inc. or its affiliates
+        <p className="footer-copy">© 1996-2023 all rights reserved.</p>
+        <p className="disclaimer">
+          Disclaimer: This website is a UI clone of popular platforms such as Amazon, created solely for educational and
+          learning purposes. This project is not affiliated with, endorsed by,
+          or connected to Amazon. All trademarks and brand
+          names belong to their respective owners.
         </p>
       </div>
     </footer>
